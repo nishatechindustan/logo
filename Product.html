@@ -3,45 +3,32 @@
 <head>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-  <style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<style>
   .main-container {
     background-color: #2a2c30;
     width: 100%;
     height:100%;
   }
-  .container {
+  .container1 {
     background-color: #f2efe7;
-    padding-left: 25%;
-    padding-right: 25%;
-    height: 100%;
-    width: 25%;
+
+    height: 65%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
-  .row {
-    display: flex;
 
-  padding: 0 4px;
-}
   img {
-    max-width:100%; 
+    max-width:100%;
     vertical-align: middle;
     height: auto;
     border-style: none;
   }
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-    flex: 50%;
-  padding: 0 4px;
-  height: 100%;
-  }
-  .column img {
 
-  vertical-align: middle;
-}
+
+
 .logo-side {
   display: inline-block;
 
@@ -65,24 +52,81 @@
     font-family: sans-serif;
     font-size:20px;
   }
+.colclassleft{
+  float: left;
+  width: 25%;
+  margin-left: 25%;
+}
+.colclassright{
+  float: right;
+  width: 25%;
+  margin-right:25%;
+}
+.rowclass {
+  width: 100%;
+}
+.container2 {
+  background-color: #ffffff;
+
+  height: 35%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.colot-text {
+  color: #4a6b0e;
+  font-size: 20px;
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+  text-align: center;
+}
+.col {
+  text-align: center;
+margin-left: auto !important;
+margin-right: auto !important;
+padding-top: 5%;
+font-size: 15px;
+width: 43%;
+}
 </style>
+
 </head>
 <body style="margin: 0;">
 <div class="main-container">
-  <div class="container">
-    <div class="row">
-      <div class="column">
+  <div class="container1">
+    <div class="rowclass">
+      <div class="colclassleft ">
         <img src="unnamed.png">
         <img src="shirt.png">
 
 </div>
-<div class="column">
+<div class="colclassright">
   <div class="logo-side">
-  <img src="logo.png">
+  <img src="logo.png" style="width: 25%;">
   <h1 class="logo">LogoHere</h1>
 
 </div>
 <h1 class="oops">Oops..!</h1>
 <h1 class="hanger">You left something on your Hanger...</h1>
+</div>
+</div>
+</div>
+<div class="container2">
+  <div class="rowclass">
+    <div class="col"
+    <p>ALSO, TAKE A PEEK AT WHAT'S
+    <p style="color: #18a08c;">NEW THIS WEEK AT COMPANY.COM</p>
+
+</div>
+<footer>
+  <p>YOUR STREET NAME,123, YOUR CITY NAME, COUNTRY NAME
+    PH:(123)1234-5678 Company@email.com
+    copyright 2016-17 lorem ipsum ltd. All right reserved.
+    Unsubscribe</p>
+</div>
+</div>
 </body>
 </html>
