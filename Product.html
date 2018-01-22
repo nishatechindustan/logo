@@ -1,19 +1,21 @@
 <!DOCTYPE>
 <html>
    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Combo' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Crushed' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Frescat' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Crushed' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Frescat' rel='stylesheet'>
       <style>
-         .main-container {
+        .main-container {
          background-color: #2a2c30;
          width: 100%;
          height:100%;
-         }
+       }
          .container1 {
          background-color: #f2efe7;
          height: 65%;
@@ -153,7 +155,7 @@
            margin-top: 0;
            margin-bottom: 11px;
          }
-         .complete{
+         .btn{
            font-size: 10px;
           background-color: #90936b;
           color: #fff;
@@ -163,6 +165,87 @@
           padding: 5px;
           box-shadow: 2px 2px 2px 2px #90936b;
         }
+
+/*.footer ul {
+  font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 15px;
+color: #7F8C8D;
+}
+ul {
+  margin-bottom: 10px;
+}
+.social li {
+  background: none repeat scroll 0 0 #B5B5B5;
+border: 2px solid #B5B5B5;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+-ms-border-radius: 50%;
+border-radius: 50%;
+float: left;
+height: 36px;
+line-height: 36px;
+margin: 0 8px 0 0;
+padding: 0;
+text-align: center;
+width: 36px;
+list-style: none;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+.social li a {
+    color: #EDEFF1;
+}
+a {
+
+    text-decoration: none;
+}
+a {
+    background: 0 0;
+}
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;*/
+  }
+  @media only screen and (min-width: 100px) and (max-width: 500px) {
+		    .container1, .container2{
+		    	width: 90%;
+		    	height: auto;
+		    }
+		    .colclassleft{
+		    	width: 60%;
+		    	margin-left: 20%;
+		    	text-align: center;
+		    	float: none;
+		    }
+		    .colclassright{
+		    	width: 60%;
+		    	margin-right: 0;
+		    	float: none;
+		    	margin-left: 20%;
+		    }
+		    .company{
+		    	width: 100%;
+		    }
+      }
+
+
       </style>
    </head>
    <body style="margin: 0;">
@@ -189,7 +272,7 @@
                      Price:$349
                   </p>
                </div>
-               <div class="complete">COMPLETE CHEKCOUT<i class="fa fa-long-arrow-right fa-lg" style="Color: #fff;"></i></div>
+               <div class="btn">COMPLETE CHEKCOUT<i class="fa fa-long-arrow-right fa-lg" style="Color: #fff;"></i></div>
             </div>
          </div>
       </div>
@@ -203,10 +286,37 @@
          <footer>
          <div class="footer-icon">
             <hr class="service-line">
-            <p class="connect">Connect with us:</p>
+            <p class="connect">Connect with us:
+              <!--<ul class="social">
+                <li>
+                <a href="#">
+                  <i class="fa fa-facebook">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-google-plus">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-pinterest">
+                  </i>
+                </a>
+              </li>
+            </ul>-->
+          </p>
+             </div>
             <hr class="service-line2">
-         </div>
-         <div class="footer-text">
+            <div class="footer-text">
             <p>YOUR STREET NAME,123, YOUR CITY NAME, COUNTRY NAME<br>
                PH:(123)1234-5678  |  Company@email.com<br>
                copyright 2016-17 lorem ipsum ltd. |  All right reserved.<br>
@@ -217,5 +327,5 @@
      </div>
       </div>
     </div>
-   </body>
+     </body>
 </html>
